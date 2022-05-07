@@ -1,0 +1,13 @@
+{
+    "name":"mvc/project",
+    "description": "mvc partern",
+    "autoload": {
+        "psr-4": {
+            "APP\\":"app/"
+        }
+    },
+    "require": {
+        "symfony/routing": "^6.0",
+        "symfony/http-foundation": "^6.0"
+    }
+}
